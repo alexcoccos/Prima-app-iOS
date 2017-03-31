@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "junior_mafia___notorious_b_i_g__by_itsmcflyy-d7m2wej-1.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "junior_mafia___notorious_b_i_g__by_itsmcflyy-d7m2wej.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "junior_mafia___notorious_b_i_g__by_itsmcflyy-d7m2wej-2.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

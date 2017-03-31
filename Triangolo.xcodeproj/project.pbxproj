@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5BD7251E8BB047002283BA /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BD7241E8BB047002283BA /* SecondController.swift */; };
+		1A5BD7271E8BC1D6002283BA /* thirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BD7261E8BC1D6002283BA /* thirdController.swift */; };
 		1A64742D1E8A9A7600FDCECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64742C1E8A9A7600FDCECE /* AppDelegate.swift */; };
-		1A64742F1E8A9A7600FDCECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64742E1E8A9A7600FDCECE /* ViewController.swift */; };
+		1A64742F1E8A9A7600FDCECE /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64742E1E8A9A7600FDCECE /* MainController.swift */; };
 		1A6474321E8A9A7600FDCECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6474301E8A9A7600FDCECE /* Main.storyboard */; };
 		1A6474341E8A9A7600FDCECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6474331E8A9A7600FDCECE /* Assets.xcassets */; };
 		1A6474371E8A9A7600FDCECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6474351E8A9A7600FDCECE /* LaunchScreen.storyboard */; };
 		1A6474421E8A9A7600FDCECE /* TriangoloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6474411E8A9A7600FDCECE /* TriangoloTests.swift */; };
 		1A64744D1E8A9A7600FDCECE /* TriangoloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64744C1E8A9A7600FDCECE /* TriangoloUITests.swift */; };
+		1A7432761E8E8B1600DEE95B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7432751E8E8B1600DEE95B /* MapKit.framework */; };
+		1ADBC4B51E8D1830004725CD /* QuadroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBC4B41E8D1830004725CD /* QuadroController.swift */; };
+		1ADBC4B81E8D4BCC004725CD /* fail-trombone-03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1ADBC4B71E8D4BCC004725CD /* fail-trombone-03.mp3 */; };
+		1ADBC4BA1E8D4C72004725CD /* Enzo_il_matto_-_Non_dire_parolacce[MP3orMP4.com].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1ADBC4B91E8D4C72004725CD /* Enzo_il_matto_-_Non_dire_parolacce[MP3orMP4.com].mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A5BD7241E8BB047002283BA /* SecondController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondController.swift; path = ../SecondController.swift; sourceTree = "<group>"; };
+		1A5BD7261E8BC1D6002283BA /* thirdController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdController.swift; sourceTree = "<group>"; };
 		1A6474291E8A9A7600FDCECE /* Triangolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triangolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A64742C1E8A9A7600FDCECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A64742E1E8A9A7600FDCECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A64742E1E8A9A7600FDCECE /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		1A6474311E8A9A7600FDCECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A6474331E8A9A7600FDCECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6474361E8A9A7600FDCECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		1A6474481E8A9A7600FDCECE /* TriangoloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangoloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A64744C1E8A9A7600FDCECE /* TriangoloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangoloUITests.swift; sourceTree = "<group>"; };
 		1A64744E1E8A9A7600FDCECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7432751E8E8B1600DEE95B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1ADBC4B41E8D1830004725CD /* QuadroController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadroController.swift; sourceTree = "<group>"; };
+		1ADBC4B71E8D4BCC004725CD /* fail-trombone-03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fail-trombone-03.mp3"; sourceTree = "<group>"; };
+		1ADBC4B91E8D4C72004725CD /* Enzo_il_matto_-_Non_dire_parolacce[MP3orMP4.com].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Enzo_il_matto_-_Non_dire_parolacce[MP3orMP4.com].mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7432761E8E8B1600DEE95B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,7 @@
 				1A6474401E8A9A7600FDCECE /* TriangoloTests */,
 				1A64744B1E8A9A7600FDCECE /* TriangoloUITests */,
 				1A64742A1E8A9A7600FDCECE /* Products */,
+				1A7432741E8E8B1600DEE95B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +111,13 @@
 		1A64742B1E8A9A7600FDCECE /* Triangolo */ = {
 			isa = PBXGroup;
 			children = (
+				1ADBC4B61E8D4B74004725CD /* sounds */,
 				1A64742C1E8A9A7600FDCECE /* AppDelegate.swift */,
-				1A64742E1E8A9A7600FDCECE /* ViewController.swift */,
+				1A64742E1E8A9A7600FDCECE /* MainController.swift */,
+				1A5BD7241E8BB047002283BA /* SecondController.swift */,
+				1A5BD7261E8BC1D6002283BA /* thirdController.swift */,
 				1A6474301E8A9A7600FDCECE /* Main.storyboard */,
+				1ADBC4B41E8D1830004725CD /* QuadroController.swift */,
 				1A6474331E8A9A7600FDCECE /* Assets.xcassets */,
 				1A6474351E8A9A7600FDCECE /* LaunchScreen.storyboard */,
 				1A6474381E8A9A7600FDCECE /* Info.plist */,
@@ -123,6 +141,23 @@
 				1A64744E1E8A9A7600FDCECE /* Info.plist */,
 			);
 			path = TriangoloUITests;
+			sourceTree = "<group>";
+		};
+		1A7432741E8E8B1600DEE95B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A7432751E8E8B1600DEE95B /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ADBC4B61E8D4B74004725CD /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1ADBC4B91E8D4C72004725CD /* Enzo_il_matto_-_Non_dire_parolacce[MP3orMP4.com].mp3 */,
+				1ADBC4B71E8D4BCC004725CD /* fail-trombone-03.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +230,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = VA4JGDUR4F;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					1A64743C1E8A9A7600FDCECE = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -235,7 +275,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADBC4BA1E8D4C72004725CD /* Enzo_il_matto_-_Non_dire_parolacce[MP3orMP4.com].mp3 in Resources */,
 				1A6474371E8A9A7600FDCECE /* LaunchScreen.storyboard in Resources */,
+				1ADBC4B81E8D4BCC004725CD /* fail-trombone-03.mp3 in Resources */,
 				1A6474341E8A9A7600FDCECE /* Assets.xcassets in Resources */,
 				1A6474321E8A9A7600FDCECE /* Main.storyboard in Resources */,
 			);
@@ -262,8 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A64742F1E8A9A7600FDCECE /* ViewController.swift in Sources */,
+				1A5BD7251E8BB047002283BA /* SecondController.swift in Sources */,
+				1A64742F1E8A9A7600FDCECE /* MainController.swift in Sources */,
 				1A64742D1E8A9A7600FDCECE /* AppDelegate.swift in Sources */,
+				1A5BD7271E8BC1D6002283BA /* thirdController.swift in Sources */,
+				1ADBC4B51E8D1830004725CD /* QuadroController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VA4JGDUR4F;
 				INFOPLIST_FILE = Triangolo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fjjvnzjdmxnc.Triangolo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VA4JGDUR4F;
 				INFOPLIST_FILE = Triangolo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fjjvnzjdmxnc.Triangolo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +559,7 @@
 				1A6474531E8A9A7600FDCECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A6474541E8A9A7600FDCECE /* Build configuration list for PBXNativeTarget "TriangoloTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +568,7 @@
 				1A6474561E8A9A7600FDCECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A6474571E8A9A7600FDCECE /* Build configuration list for PBXNativeTarget "TriangoloUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +577,7 @@
 				1A6474591E8A9A7600FDCECE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
